@@ -1,0 +1,31 @@
+public class Yes {
+    String SurName;
+    String FirstName;
+    String MiddleInitial;
+    String DateOfBirth;
+    int StudentNumber;
+    String Email;
+    boolean iAmAwesome;
+
+    public void person() {
+        System.out.println("\nSurname-" + SurName);
+        System.out.println("\nFirst Name-" + FirstName);
+        System.out.println("\nMiddle Initial-" + MiddleInitial);
+        System.out.println("\nDate of Birth-" + DateOfBirth);
+        System.out.println("\nStudent Number-" + StudentNumber);
+        System.out.println("\nEmail-" + Email);
+        System.out.println("\nI am Awsome-" + iAmAwesome);
+    }
+    public Yes(String Date, String Lname, String Fname, String MI, 
+    int StudentNo, String email, boolean IAA) 
+    {
+        SurName = Lname;
+        FirstName = Fname;
+        MiddleInitial = MI;
+        DateOfBirth = Date;
+        StudentNumber = StudentNo;
+        Email = email;
+        iAmAwesome = IAA;
+    }
+
+}
