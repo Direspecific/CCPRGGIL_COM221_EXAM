@@ -1,0 +1,8 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+    Yes person = new Yes("02/06/2003", "Fat", "Andrew Laurence", "T."
+    , 2022103595, "fatat@students.national-u.edu.ph", true);
+    person.person ();
+    }
+}
